@@ -194,7 +194,8 @@ header {
 ========================= */
 
 .items-section {
-    padding: 20px 0 50px;
+    padding: 50px 0 50px;
+    background: khaki;
 }
 
 .items-container {
@@ -418,10 +419,12 @@ header {
 .highlights {
     width: 90%;
     max-width: 1100px;
-
+  
     margin: 20px auto 70px;
 }
-
+.highlightscard {
+  background: #cacaff;
+}
 
 /* Main Group Card */
 
