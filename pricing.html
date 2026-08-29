@@ -2,71 +2,653 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
 
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
 
-    <title>Pricing - Dummy Bakery</title>
+    <meta name="description"
+          content="Dummy Bakery - Fresh cakes, pastries and desserts">
+
+    <title>Dummy Bakery | Pricing</title>
 
     <link rel="stylesheet" href="style.css">
 
+    <!-- Google Font -->
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+          rel="stylesheet">
 </head>
+
 
 <body>
 
-    <!-- Header -->
-
-    <header>
+    <header class="header">
 
         <div class="container navbar">
 
             <div class="logo">
-                <!-- Logo -->
-                 <img src="png/logo-dummy.png" alt="log">
+                <span>DC</span>
+
+                <div>
+                    <h2>Dummy</h2>
+                    <small>BAKERY</small>
+                </div>
             </div>
 
-            <nav class="nav-links">
 
-                              <a href="index.html">Home</a>
-                <a href="pricing.html">Pricing</a>
-                <a href="contact.html">Contact Us</a>
-                <a href="findus.html">Find Us</a>
-                <a href="blog.html">Blog</a>
+            <nav class="nav">
+
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Menu</a>
+                <a href="#" class="active">Pricing</a>
+                <a href="#">Contact</a>
+
             </nav>
+
+
+            <button class="cart">
+                🛒 <span>0</span>
+            </button>
 
         </div>
 
     </header>
 
 
-    <!-- Main -->
+    <!-- ================= HERO ================= -->
 
-    <main>
+    <section class="hero">
+
+        <div class="container hero-content">
+
+            <div>
+
+                <p class="eyebrow">
+                    ✦ FRESHLY BAKED EVERY DAY
+                </p>
+
+                <h1>
+                    Treat Yourself To
+                    <span>Something Sweet.</span>
+                </h1>
+
+                <p class="hero-text">
+                    Discover handcrafted cakes, pastries and
+                    desserts made with premium ingredients
+                    and lots of love.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#products"
+                       class="primary-btn">
+                        Explore Menu →
+                    </a>
+
+                    <a href="#custom"
+                       class="secondary-btn">
+                        Custom Cakes
+                    </a>
+
+                </div>
+
+            </div>
 
 
+            <div class="hero-card">
+
+                <div class="hero-badge">
+                    ⭐ BESTSELLER
+                </div>
+
+                <img src="images/chocolate-cake.jpg"
+                     alt="Chocolate Cake">
+
+                <div class="hero-product">
+
+                    <div>
+                        <h3>Chocolate Truffle Cake</h3>
+                        <p>Rich • Creamy • Delicious</p>
+                    </div>
+
+                    <strong>₹799</strong>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
 
 
+    <!-- ================= CATEGORY ================= -->
 
-
-    </main>
-
-
-    <!-- Footer -->
-
-    <footer>
+    <section class="categories">
 
         <div class="container">
 
-            <!-- Footer Content -->
-   <p>
-            © 2026 DUMMY BAKERY | Freshly Baked, Made With Love
-        </p>
+            <div class="section-heading">
+
+                <div>
+                    <p class="eyebrow">OUR COLLECTION</p>
+
+                    <h2>
+                        Choose Your Favourite
+                    </h2>
+                </div>
+
+                <p>
+                    Something delicious for
+                    every occasion.
+                </p>
+
+            </div>
+
+
+            <div class="category-list">
+
+                <button class="category active">
+                    🎂 Cakes
+                </button>
+
+                <button class="category">
+                    🥐 Pastries
+                </button>
+
+                <button class="category">
+                    🍪 Cookies
+                </button>
+
+                <button class="category">
+                    🍩 Donuts
+                </button>
+
+                <button class="category">
+                    ☕ Combos
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PRODUCTS ================= -->
+
+    <section class="products"
+             id="products">
+
+        <div class="container">
+
+            <div class="product-grid">
+
+
+                <!-- PRODUCT 1 -->
+
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <span class="badge">
+                            BESTSELLER
+                        </span>
+
+                        <img src="images/chocolate-cake.jpg"
+                             alt="Chocolate Truffle Cake">
+
+                        <button class="wishlist">
+                            ♡
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-info">
+
+                        <div class="rating">
+                            ★★★★★
+                            <span>(128)</span>
+                        </div>
+
+                        <h3>
+                            Chocolate Truffle Cake
+                        </h3>
+
+                        <p>
+                            Belgian chocolate,
+                            fresh cream and chocolate
+                            ganache.
+                        </p>
+
+
+                        <div class="product-bottom">
+
+                            <div class="price">
+
+                                <span class="old-price">
+                                    ₹899
+                                </span>
+
+                                <strong>
+                                    ₹799
+                                </strong>
+
+                            </div>
+
+                            <button class="add-btn">
+                                +
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT 2 -->
+
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <span class="badge new">
+                            NEW
+                        </span>
+
+                        <img src="images/red-velvet.jpg"
+                             alt="Red Velvet Cake">
+
+                        <button class="wishlist">
+                            ♡
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-info">
+
+                        <div class="rating">
+                            ★★★★★
+                            <span>(94)</span>
+                        </div>
+
+                        <h3>
+                            Red Velvet Cake
+                        </h3>
+
+                        <p>
+                            Soft red velvet sponge
+                            with creamy cheese frosting.
+                        </p>
+
+
+                        <div class="product-bottom">
+
+                            <div class="price">
+
+                                <span class="old-price">
+                                    ₹999
+                                </span>
+
+                                <strong>
+                                    ₹899
+                                </strong>
+
+                            </div>
+
+                            <button class="add-btn">
+                                +
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT 3 -->
+
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <img src="images/croissant.jpg"
+                             alt="Butter Croissant">
+
+                        <button class="wishlist">
+                            ♡
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-info">
+
+                        <div class="rating">
+                            ★★★★★
+                            <span>(76)</span>
+                        </div>
+
+                        <h3>
+                            Butter Croissant
+                        </h3>
+
+                        <p>
+                            Golden, flaky and
+                            freshly baked every morning.
+                        </p>
+
+
+                        <div class="product-bottom">
+
+                            <div class="price">
+
+                                <strong>
+                                    ₹120
+                                </strong>
+
+                            </div>
+
+                            <button class="add-btn">
+                                +
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT 4 -->
+
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <span class="badge">
+                            POPULAR
+                        </span>
+
+                        <img src="images/brownie.jpg"
+                             alt="Chocolate Brownie">
+
+                        <button class="wishlist">
+                            ♡
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-info">
+
+                        <div class="rating">
+                            ★★★★★
+                            <span>(153)</span>
+                        </div>
+
+                        <h3>
+                            Fudge Brownie
+                        </h3>
+
+                        <p>
+                            Rich chocolate brownie
+                            with a soft fudgy centre.
+                        </p>
+
+
+                        <div class="product-bottom">
+
+                            <div class="price">
+
+                                <strong>
+                                    ₹150
+                                </strong>
+
+                            </div>
+
+                            <button class="add-btn">
+                                +
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT 5 -->
+
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <img src="images/donut.jpg"
+                             alt="Chocolate Donut">
+
+                        <button class="wishlist">
+                            ♡
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-info">
+
+                        <div class="rating">
+                            ★★★★☆
+                            <span>(61)</span>
+                        </div>
+
+                        <h3>
+                            Chocolate Donut
+                        </h3>
+
+                        <p>
+                            Soft donut covered with
+                            smooth chocolate glaze.
+                        </p>
+
+
+                        <div class="product-bottom">
+
+                            <div class="price">
+
+                                <strong>
+                                    ₹90
+                                </strong>
+
+                            </div>
+
+                            <button class="add-btn">
+                                +
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT 6 -->
+
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <span class="badge new">
+                            NEW
+                        </span>
+
+                        <img src="images/cheesecake.jpg"
+                             alt="Strawberry Cheesecake">
+
+                        <button class="wishlist">
+                            ♡
+                        </button>
+
+                    </div>
+
+
+                    <div class="product-info">
+
+                        <div class="rating">
+                            ★★★★★
+                            <span>(87)</span>
+                        </div>
+
+                        <h3>
+                            Strawberry Cheesecake
+                        </h3>
+
+                        <p>
+                            Creamy cheesecake topped
+                            with fresh strawberries.
+                        </p>
+
+
+                        <div class="product-bottom">
+
+                            <div class="price">
+
+                                <strong>
+                                    ₹450
+                                </strong>
+
+                            </div>
+
+                            <button class="add-btn">
+                                +
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CUSTOM CAKE ================= -->
+
+    <section class="custom"
+             id="custom">
+
+        <div class="container custom-content">
+
+            <div>
+
+                <p class="eyebrow">
+                    MADE JUST FOR YOU
+                </p>
+
+                <h2>
+                    Create Your
+                    Dream Cake 🎂
+                </h2>
+
+                <p>
+                    Planning a birthday, wedding or special
+                    celebration? Tell us what you want and
+                    we'll create a cake that's uniquely yours.
+                </p>
+
+                <a href="#"
+                   class="primary-btn">
+                    Design Your Cake →
+                </a>
+
+            </div>
+
+
+            <div class="custom-price">
+
+                <span>Starting from</span>
+
+                <strong>₹1,499</strong>
+
+                <small>
+                    Custom design available
+                </small>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="container footer-grid">
+
+            <div>
+
+                <h2>Dummy</h2>
+
+                <p>
+                    Freshly baked happiness,
+                    delivered to your doorstep.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h4>Quick Links</h4>
+
+                <a href="#">Home</a>
+                <a href="#">Menu</a>
+                <a href="#">Pricing</a>
+                <a href="#">Contact</a>
+
+            </div>
+
+
+            <div>
+
+                <h4>Contact</h4>
+
+                <p>📍 Chennai, Tamil Nadu</p>
+                <p>📞 +91 850845 1772</p>
+                <p>✉ hello@dummy.com</p>
+
+            </div>
+
+        </div>
+
+
+        <div class="copyright">
+
+            © 2026 Dummy Bakery.
+            All Rights Reserved.
+
         </div>
 
     </footer>
 
 </body>
 
-</html>       
+</html>
