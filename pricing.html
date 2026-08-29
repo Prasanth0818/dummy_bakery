@@ -1,228 +1,143 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
 
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+```
+<meta charset="UTF-8">
 
-    <meta name="description"
-          content="Dummy Bakery - Fresh cakes, pastries and desserts">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
 
-    <title>Dummy Bakery | Pricing</title>
+<meta name="description"
+      content="Dummy Bakery - Fresh cakes, pastries and desserts">
 
-    <link rel="stylesheet" href="style.css">
+<title>Dummy Bakery | Pricing</title>
 
-    <!-- Google Font -->
-    <link rel="preconnect"
-          href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="style.css">
+```
 
-    <link rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
-          rel="stylesheet">
 </head>
-
 
 <body>
 
-    <header class="header">
+```
+<!-- =========================
+     HEADER
+========================== -->
 
-        <div class="container navbar">
+<header>
 
-            <div class="logo">
-                <span>DC</span>
+    <div class="container navbar">
 
-                <div>
-                    <h2>Dummy</h2>
-                    <small>BAKERY</small>
-                </div>
-            </div>
+        <div class="logo">
 
-
-            <nav class="nav">
-
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Menu</a>
-                <a href="#" class="active">Pricing</a>
-                <a href="#">Contact</a>
-
-            </nav>
-
-
-            <button class="cart">
-                🛒 <span>0</span>
-            </button>
+            <img src="png/logo-dummy.png" alt="logo">
 
         </div>
 
-    </header>
+
+        <nav class="nav-links">
+
+            <a href="index.html">Home</a>
+
+            <a href="pricing.html">Pricing</a>
+
+            <a href="contact.html">Contact Us</a>
+
+            <a href="findus.html">Find Us</a>
+
+            <a href="blog.html">Blog</a>
+
+        </nav>
+
+    </div>
+
+</header>
 
 
-    <!-- ================= HERO ================= -->
 
-    <section class="hero">
+<!-- =========================
+     MAIN
+========================== -->
 
-        <div class="container hero-content">
+<main>
 
-            <div>
-
-                <p class="eyebrow">
-                    ✦ FRESHLY BAKED EVERY DAY
-                </p>
-
-                <h1>
-                    Treat Yourself To
-                    <span>Something Sweet.</span>
-                </h1>
-
-                <p class="hero-text">
-                    Discover handcrafted cakes, pastries and
-                    desserts made with premium ingredients
-                    and lots of love.
-                </p>
-
-                <div class="hero-buttons">
-
-                    <a href="#products"
-                       class="primary-btn">
-                        Explore Menu →
-                    </a>
-
-                    <a href="#custom"
-                       class="secondary-btn">
-                        Custom Cakes
-                    </a>
-
-                </div>
-
-            </div>
+    <div class="container">
 
 
-            <div class="hero-card">
+        <!-- =========================
+             HERO / INTRO
+        ========================== -->
 
-                <div class="hero-badge">
-                    ⭐ BESTSELLER
-                </div>
+        <section class="intro">
 
-                <img src="jpg/chocolate-cake.jpg"
-                     alt="Chocolate Cake">
+            <p class="eyebrow">
+                ✦ FRESHLY BAKED EVERY DAY
+            </p>
 
-                <div class="hero-product">
+            <h1>
+                Treat Yourself To
+                <span>Something Sweet.</span>
+            </h1>
 
-                    <div>
-                        <h3>Chocolate Truffle Cake</h3>
-                        <p>Rich • Creamy • Delicious</p>
-                    </div>
+            <p>
+                Discover handcrafted cakes, pastries and
+                desserts made with premium ingredients
+                and lots of love.
+            </p>
 
-                    <strong>₹799</strong>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
+        </section>
 
 
-    <!-- ================= CATEGORY ================= -->
 
-    <section class="categories">
+        <!-- =========================
+             CATEGORY
+        ========================== -->
 
-        <div class="container">
+             <!-- =========================
+             PRODUCTS
+        ========================== -->
 
-            <div class="section-heading">
+        <section class="items-section pricing-products">
 
-                <div>
-                    <p class="eyebrow">OUR COLLECTION</p>
-
-                    <h2>
-                        Choose Your Favourite
-                    </h2>
-                </div>
-
-                <p>
-                    Something delicious for
-                    every occasion.
-                </p>
-
-            </div>
-
-
-            <div class="category-list">
-
-                <button class="category active">
-                    🎂 Cakes
-                </button>
-
-                <button class="category">
-                    🥐 Pastries
-                </button>
-
-                <button class="category">
-                    🍪 Cookies
-                </button>
-
-                <button class="category">
-                    🍩 Donuts
-                </button>
-
-                <button class="category">
-                    ☕ Combos
-                </button>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ================= PRODUCTS ================= -->
-
-    <section class="products"
-             id="products">
-
-        <div class="container">
-
-            <div class="product-grid">
+            <div class="items-container">
 
 
                 <!-- PRODUCT 1 -->
 
-                <article class="product-card">
+                <article class="card pricing-card">
 
-                    <div class="product-image">
+                    <div class="pricing-image">
 
-                        <span class="badge">
-                            BESTSELLER
+                        <span class="pricing-badge">
+                            ⭐ BESTSELLER
                         </span>
 
                         <img src="jpg/chocolate-cake.jpg"
                              alt="Chocolate Truffle Cake">
 
-                        <button class="wishlist">
-                            ♡
-                        </button>
-
                     </div>
 
 
-                    <div class="product-info">
-
-                        <div class="rating">
-                            ★★★★★
-                            <span>(128)</span>
-                        </div>
+                    <div class="pricing-info">
 
                         <h3>
                             Chocolate Truffle Cake
                         </h3>
+
+
+                        <div class="pricing-rating">
+
+                            ★★★★★
+
+                            <span>
+                                (128)
+                            </span>
+
+                        </div>
+
 
                         <p>
                             Belgian chocolate,
@@ -231,11 +146,11 @@
                         </p>
 
 
-                        <div class="product-bottom">
+                        <div class="pricing-bottom">
 
-                            <div class="price">
+                            <div class="pricing-price">
 
-                                <span class="old-price">
+                                <span class="pricing-old-price">
                                     ₹899
                                 </span>
 
@@ -245,8 +160,12 @@
 
                             </div>
 
-                            <button class="add-btn">
-                                +
+
+                            <button class="pricing-add-btn"
+                                    type="button">
+
+                                Add to Cart
+
                             </button>
 
                         </div>
@@ -256,36 +175,40 @@
                 </article>
 
 
+
                 <!-- PRODUCT 2 -->
 
-                <article class="product-card">
+                <article class="card pricing-card">
 
-                    <div class="product-image">
+                    <div class="pricing-image">
 
-                        <span class="badge new">
+                        <span class="pricing-badge pricing-new">
                             NEW
                         </span>
 
                         <img src="jpg/red-velvet.jpg"
                              alt="Red Velvet Cake">
 
-                        <button class="wishlist">
-                            ♡
-                        </button>
-
                     </div>
 
 
-                    <div class="product-info">
-
-                        <div class="rating">
-                            ★★★★★
-                            <span>(94)</span>
-                        </div>
+                    <div class="pricing-info">
 
                         <h3>
                             Red Velvet Cake
                         </h3>
+
+
+                        <div class="pricing-rating">
+
+                            ★★★★★
+
+                            <span>
+                                (94)
+                            </span>
+
+                        </div>
+
 
                         <p>
                             Soft red velvet sponge
@@ -293,11 +216,11 @@
                         </p>
 
 
-                        <div class="product-bottom">
+                        <div class="pricing-bottom">
 
-                            <div class="price">
+                            <div class="pricing-price">
 
-                                <span class="old-price">
+                                <span class="pricing-old-price">
                                     ₹999
                                 </span>
 
@@ -307,8 +230,12 @@
 
                             </div>
 
-                            <button class="add-btn">
-                                +
+
+                            <button class="pricing-add-btn"
+                                    type="button">
+
+                                Add to Cart
+
                             </button>
 
                         </div>
@@ -318,32 +245,35 @@
                 </article>
 
 
+
                 <!-- PRODUCT 3 -->
 
-                <article class="product-card">
+                <article class="card pricing-card">
 
-                    <div class="product-image">
+                    <div class="pricing-image">
 
-                        <img src="jpg/croissant.jpg"
-                             alt="Butter Croissant">
-
-                        <button class="wishlist">
-                            ♡
-                        </button>
+                        <img src="jpg/croissant.jpg" alt="Butter Croissant">
 
                     </div>
 
 
-                    <div class="product-info">
-
-                        <div class="rating">
-                            ★★★★★
-                            <span>(76)</span>
-                        </div>
+                    <div class="pricing-info">
 
                         <h3>
                             Butter Croissant
                         </h3>
+
+
+                        <div class="pricing-rating">
+
+                            ★★★★★
+
+                            <span>
+                                (76)
+                            </span>
+
+                        </div>
+
 
                         <p>
                             Golden, flaky and
@@ -351,9 +281,9 @@
                         </p>
 
 
-                        <div class="product-bottom">
+                        <div class="pricing-bottom">
 
-                            <div class="price">
+                            <div class="pricing-price">
 
                                 <strong>
                                     ₹120
@@ -361,8 +291,12 @@
 
                             </div>
 
-                            <button class="add-btn">
-                                +
+
+                            <button class="pricing-add-btn"
+                                    type="button">
+
+                                Add to Cart
+
                             </button>
 
                         </div>
@@ -372,36 +306,40 @@
                 </article>
 
 
+
                 <!-- PRODUCT 4 -->
 
-                <article class="product-card">
+                <article class="card pricing-card">
 
-                    <div class="product-image">
+                    <div class="pricing-image">
 
-                        <span class="badge">
+                        <span class="pricing-badge">
                             POPULAR
                         </span>
 
                         <img src="jpg/brownie.jpg"
                              alt="Chocolate Brownie">
 
-                        <button class="wishlist">
-                            ♡
-                        </button>
-
                     </div>
 
 
-                    <div class="product-info">
-
-                        <div class="rating">
-                            ★★★★★
-                            <span>(153)</span>
-                        </div>
+                    <div class="pricing-info">
 
                         <h3>
                             Fudge Brownie
                         </h3>
+
+
+                        <div class="pricing-rating">
+
+                            ★★★★★
+
+                            <span>
+                                (153)
+                            </span>
+
+                        </div>
+
 
                         <p>
                             Rich chocolate brownie
@@ -409,9 +347,9 @@
                         </p>
 
 
-                        <div class="product-bottom">
+                        <div class="pricing-bottom">
 
-                            <div class="price">
+                            <div class="pricing-price">
 
                                 <strong>
                                     ₹150
@@ -419,8 +357,12 @@
 
                             </div>
 
-                            <button class="add-btn">
-                                +
+
+                            <button class="pricing-add-btn"
+                                    type="button">
+
+                                Add to Cart
+
                             </button>
 
                         </div>
@@ -430,32 +372,36 @@
                 </article>
 
 
+
                 <!-- PRODUCT 5 -->
 
-                <article class="product-card">
+                <article class="card pricing-card">
 
-                    <div class="product-image">
+                    <div class="pricing-image">
 
                         <img src="jpg/donut.jpg"
                              alt="Chocolate Donut">
 
-                        <button class="wishlist">
-                            ♡
-                        </button>
-
                     </div>
 
 
-                    <div class="product-info">
-
-                        <div class="rating">
-                            ★★★★☆
-                            <span>(61)</span>
-                        </div>
+                    <div class="pricing-info">
 
                         <h3>
                             Chocolate Donut
                         </h3>
+
+
+                        <div class="pricing-rating">
+
+                            ★★★★☆
+
+                            <span>
+                                (61)
+                            </span>
+
+                        </div>
+
 
                         <p>
                             Soft donut covered with
@@ -463,9 +409,9 @@
                         </p>
 
 
-                        <div class="product-bottom">
+                        <div class="pricing-bottom">
 
-                            <div class="price">
+                            <div class="pricing-price">
 
                                 <strong>
                                     ₹90
@@ -473,8 +419,12 @@
 
                             </div>
 
-                            <button class="add-btn">
-                                +
+
+                            <button class="pricing-add-btn"
+                                    type="button">
+
+                                Add to Cart
+
                             </button>
 
                         </div>
@@ -484,36 +434,40 @@
                 </article>
 
 
+
                 <!-- PRODUCT 6 -->
 
-                <article class="product-card">
+                <article class="card pricing-card">
 
-                    <div class="product-image">
+                    <div class="pricing-image">
 
-                        <span class="badge new">
+                        <span class="pricing-badge pricing-new">
                             NEW
                         </span>
 
                         <img src="jpg/cheesecake.jpg"
                              alt="Strawberry Cheesecake">
 
-                        <button class="wishlist">
-                            ♡
-                        </button>
-
                     </div>
 
 
-                    <div class="product-info">
-
-                        <div class="rating">
-                            ★★★★★
-                            <span>(87)</span>
-                        </div>
+                    <div class="pricing-info">
 
                         <h3>
                             Strawberry Cheesecake
                         </h3>
+
+
+                        <div class="pricing-rating">
+
+                            ★★★★★
+
+                            <span>
+                                (87)
+                            </span>
+
+                        </div>
+
 
                         <p>
                             Creamy cheesecake topped
@@ -521,9 +475,9 @@
                         </p>
 
 
-                        <div class="product-bottom">
+                        <div class="pricing-bottom">
 
-                            <div class="price">
+                            <div class="pricing-price">
 
                                 <strong>
                                     ₹450
@@ -531,8 +485,12 @@
 
                             </div>
 
-                            <button class="add-btn">
-                                +
+
+                            <button class="pricing-add-btn"
+                                    type="button">
+
+                                Add to Cart
+
                             </button>
 
                         </div>
@@ -541,113 +499,101 @@
 
                 </article>
 
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ================= CUSTOM CAKE ================= -->
-
-    <section class="custom"
-             id="custom">
-
-        <div class="container custom-content">
-
-            <div>
-
-                <p class="eyebrow">
-                    MADE JUST FOR YOU
-                </p>
-
-                <h2>
-                    Create Your
-                    Dream Cake 🎂
-                </h2>
-
-                <p>
-                    Planning a birthday, wedding or special
-                    celebration? Tell us what you want and
-                    we'll create a cake that's uniquely yours.
-                </p>
-
-                <a href="#"
-                   class="primary-btn">
-                    Design Your Cake →
-                </a>
 
             </div>
 
+        </section>
 
-            <div class="custom-price">
 
-                <span>Starting from</span>
 
-                <strong>₹1,499</strong>
+        <!-- =========================
+             CUSTOM CAKE
+        ========================== -->
 
-                <small>
-                    Custom design available
-                </small>
+        <section class="special-offers">
+
+            <h2>
+                Create Your
+                Dream Cake 🎂
+            </h2>
+
+
+            <div class="offers-content">
+
+
+                <div class="offers-list">
+
+                    <p>
+                        MADE JUST FOR YOU
+                    </p>
+
+
+                    <p>
+                        Planning a birthday, wedding or special
+                        celebration? Tell us what you want and
+                        we'll create a cake that's uniquely yours.
+                    </p>
+
+
+                    <ul>
+
+                        <li>
+                            Design Your Cake →
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+
+                <div class="offer-image">
+
+                    <p>
+                        Starting from
+                    </p>
+
+
+                    <strong>
+                        ₹1,499
+                    </strong>
+
+
+                    <small>
+                        Custom design available
+                    </small>
+
+                </div>
+
 
             </div>
 
-        </div>
-
-    </section>
+        </section>
 
 
-    <!-- ================= FOOTER ================= -->
+    </div>
 
-    <footer>
-
-        <div class="container footer-grid">
-
-            <div>
-
-                <h2>Dummy</h2>
-
-                <p>
-                    Freshly baked happiness,
-                    delivered to your doorstep.
-                </p>
-
-            </div>
+</main>
 
 
-            <div>
 
-                <h4>Quick Links</h4>
+<!-- =========================
+     FOOTER
+========================== -->
 
-                <a href="#">Home</a>
-                <a href="#">Menu</a>
-                <a href="#">Pricing</a>
-                <a href="#">Contact</a>
+<footer>
 
-            </div>
+    <div class="container">
 
-
-            <div>
-
-                <h4>Contact</h4>
-
-                <p>📍 Chennai, Tamil Nadu</p>
-                <p>📞 +91 850845 1772</p>
-                <p>✉ hello@dummy.com</p>
-
-            </div>
-
-        </div>
-
-
-        <div class="copyright">
-
+        <p>
             © 2026 Dummy Bakery.
             All Rights Reserved.
+        </p>
 
-        </div>
+    </div>
 
-    </footer>
+</footer>
+```
 
 </body>
 
